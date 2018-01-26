@@ -1,0 +1,39 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    "php.validate.executablePath": "D:\\wamp\\bin\\php\\php5.5.12\\php.exe",
+    "workbench.colorTheme": "Monokai",
+    "files.associations": {
+        "*.less": "less"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 0,
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "vscode-icons",
+    "view-in-browser.customBrowser": "chrome",
+    "files.autoSave": "onFocusChange",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.associations": {
+        "*.vue": "html"
+    },
+    "editor.detectIndentation": false,
+    "explorer.confirmDelete": false,
+    "cssrem.rootFontSize": 75,
+    "editor.formatOnPaste": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "sync.gist": "5134aeeff5509f2f7fed66e198c0724f",
+    "sync.lastUpload": "2018-01-26T04:11:26.055Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false
+}

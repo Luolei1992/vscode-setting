@@ -1,0 +1,142 @@
+{
+    "Id" : "4138e55b13b668b1afff6d73defca79dad67cc78",
+    "Print to console": {
+        "prefix": "log",
+        "body": [
+            "console.log('$1');",
+            "$2"
+        ],
+        "description": "Log output to console"
+    },
+    "Print to alert": {
+        "prefix": "alt",
+        "body": [
+            "alert('$1');",
+            "$2"
+        ],
+        "description": "Log output to alert"
+    },
+    "Print to func": {
+        "prefix": "func",
+        "body": [
+            "const $1 = () => { \n\n}",
+            "$2"
+        ],
+        "description": "Log output to func"
+    },
+    //常用标签
+    "Print to div": {
+        "prefix": "div",
+        "body": [
+            "<div>$1</div>",
+            "$2"
+        ],
+        "description": "Log output to div"
+    },
+    "Print to i": {
+        "prefix": "i",
+        "body": [
+            "<i>$1</i>",
+            "$2"
+        ],
+        "description": "Log output to i"
+    },
+    "Print to span": {
+        "prefix": "span",
+        "body": [
+            "<span>$1</span>",
+            "$2"
+        ],
+        "description": "Log output to span"
+    },
+    "Print to ul": {
+        "prefix": "ul",
+        "body": [
+            "<ul>$1</ul>",
+            "$2"
+        ],
+        "description": "Log output to ul"
+    },
+    "Print to li": {
+        "prefix": "li",
+        "body": [
+            "<li>$1</li>",
+            "$2"
+        ],
+        "description": "Log output to li"
+    },
+    "Print to p": {
+        "prefix": "p",
+        "body": [
+            "<p>$1</p>",
+            "$2"
+        ],
+        "description": "Log output to p"
+    },
+    "Print to img": {
+        "prefix": "img",
+        "body": [
+            "<img src='$1' />",
+            "$2"
+        ],
+        "description": "Log output to img"
+    },
+
+    // 组件快捷写法
+    "Print to List": {
+        "prefix": "List",
+        "body": [
+            "<List>$1</List>",
+            "$2"
+        ],
+        "description": "Log output to List"
+    },
+    "Print to InputItem": {
+        "prefix": "InputItem",
+        "body": [
+            "<InputItem>$1</InputItem>",
+            "$2"
+        ],
+        "description": "Log output to InputItem"
+    },
+    "Print to Link": {
+        "prefix": "Link",
+        "body": [
+            "<Link>$1</Link>",
+            "$2"
+        ],
+        "description": "Log output to Link"
+    },
+    "Print to Button": {
+        "prefix": "Link",
+        "body": [
+            "<Button>$1</Button>",
+            "$2"
+        ],
+        "description": "Log output to Button"
+    },
+    "Print to Item": {
+        "prefix": "Item",
+        "body": [
+            "<Item>$1</Item>",
+            "$2"
+        ],
+        "description": "Log output to Item"
+    },
+    "Print to Tag": {
+        "prefix": "Tag",
+        "body": [
+            "<Tag>$1</Tag>",
+            "$2"
+        ],
+        "description": "Log output to Tag"
+    },
+    "Print to Route": {
+        "prefix": "Route",
+        "body": [
+            "<Route path=\"$1\" component={} />",
+            "$2"
+        ],
+        "description": "Log output to Tag"
+    }
+}

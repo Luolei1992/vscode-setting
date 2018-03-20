@@ -37,3 +37,21 @@
     "sync.quietSync": false,
     "sync.askGistName": false
 }
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontSize": 18,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Monokai",
+    "view-in-browser.customBrowser": "chrome",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "cssrem.rootFontSize": 75,
+    "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize":4,
+    "editor.autoIndent": false
+  },
+  "editor.detectIndentation": false,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.vue": "js-beautify-html"
+}
